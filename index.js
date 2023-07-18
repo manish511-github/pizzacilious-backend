@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(cors());
 
 app.get("/",(req,res)=>{
-    res.send("<h1>Welcome to PagePalette app</h1>")
+    res.send("<h1>Welcome to Pizzacilious app</h1>")
 })
 // routes
 app.use('/api/users', userRoutes);
